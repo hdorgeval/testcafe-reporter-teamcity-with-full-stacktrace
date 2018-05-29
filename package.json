@@ -1,6 +1,6 @@
 {
   "name": "testcafe-reporter-teamcity-with-full-stacktrace",
-  "version": "0.0.1",
+  "version": "0.0.2",
   "description": "This is a TeamCity reporter plugin for TestCafe. https://devexpress.github.io/testcafe/",
   "main": "lib/index.js",
   "typings": "lib/index.d.ts",
@@ -16,7 +16,8 @@
     "build": "npm run lint && rimraf lib && tsc ",
     "publish-please": "publish-please",
     "package": "npm run rimraf:package && rm -f my*.tgz && npm pack",
-    "rimraf:package": "rimraf ./package"
+    "rimraf:package": "rimraf ./package",
+    "prepublishOnly": "publish-please guard"
   },
   "keywords": [
     "testcafe",

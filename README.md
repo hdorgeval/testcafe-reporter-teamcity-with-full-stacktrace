@@ -1,4 +1,4 @@
-# testcafe-reporter-teamcity-with-full-stacktrace
+# testcafe-reporter-teamcity-with-full-stacktrace (beta)
 This is a TeamCity reporter plugin for TestCafe. https://devexpress.github.io/testcafe/
 
 ## To install this TestCafe Reporter
