@@ -1,6 +1,8 @@
 # testcafe-reporter-teamcity-with-full-stacktrace (beta)
 This is a TeamCity reporter plugin for TestCafe. https://devexpress.github.io/testcafe/
 
+[![npm badge](https://nodei.co/npm/testcafe-reporter-teamcity-with-full-stacktrace.png)](https://npmjs.org/package/testcafe-reporter-teamcity-with-full-stacktrace)
+
 ## To install this TestCafe Reporter
 
 * run the command `npm install --save testcafe-reporter-teamcity-with-full-stacktrace`.
